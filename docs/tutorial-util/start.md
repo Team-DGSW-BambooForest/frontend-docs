@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tutorial
+# Tutorial Intro
 
 ## 시작하기
 
@@ -45,3 +45,9 @@ package.json에 입력한 패키지이름과 같은 대나무 패키지에 패�
 ```bash
 git pull origin [브랜치이름]
 ```
+
+The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+
+The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+
+Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
